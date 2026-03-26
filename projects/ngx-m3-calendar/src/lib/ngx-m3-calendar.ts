@@ -229,6 +229,19 @@ export class MatCalendarComponent implements OnInit {
   trackByDay(_i: number, d: CalendarDay): string { return this.utils.getDayKey(d.date); }
   trackByEvent(_i: number, e: NormalizedCalendarEvent): string { return `${e.raw.title}-${e.start.toISOString()}`; }
 
+  /** Returns dark or light text color based on background luminance. */
+  contrastText(color: string | null | undefined): string | null {
+    if (!color) return null;
+    const hex = color.replace('#', '');
+    if (hex.length < 6) return null;
+    const r = parseInt(hex.substring(0, 2), 16);
+    const g = parseInt(hex.substring(2, 4), 16);
+    const b = parseInt(hex.substring(4, 6), 16);
+    // Relative luminance (WCAG formula)
+    const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+    return luminance > 0.6 ? '#1a1a1a' : '#ffffff';
+  }
+
   // ─── Private ─────────────────────────────────────────
   private normalizeEvent(event: CalendarEvent): NormalizedCalendarEvent | null {
     const start = this.utils.toLocalDate(event.start);
