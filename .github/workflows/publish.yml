@@ -24,7 +24,7 @@ jobs:
 
       - run: npx ng build ngx-m3-calendar --configuration production
 
+      - run: npm whoami 2>/dev/null || true
+
       - run: npm publish --provenance --access public
         working-directory: dist/ngx-m3-calendar
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
