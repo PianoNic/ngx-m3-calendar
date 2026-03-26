@@ -9,6 +9,7 @@ import {
   OnInit,
   output,
   signal,
+  untracked,
 } from '@angular/core';
 import { DatePipe } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
@@ -83,16 +84,15 @@ export class MatCalendarComponent implements OnInit {
   constructor() {
     effect(() => {
       const incoming = this.selectedDate();
-      const current = this.activeDate();
-      if (incoming && current.getTime() !== incoming.getTime()) {
-        this.activeDate.set(new Date(incoming));
+      if (incoming) {
+        untracked(() => this.activeDate.set(new Date(incoming)));
       }
     });
 
     effect(() => {
       const incoming = this.viewMode();
-      if (incoming && this.currentViewMode() !== incoming) {
-        this.currentViewMode.set(incoming);
+      if (incoming) {
+        untracked(() => this.currentViewMode.set(incoming));
       }
     });
   }

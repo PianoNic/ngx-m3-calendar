@@ -36,7 +36,7 @@ export class App {
   }
 
   setTheme(theme: ThemeOption): void {
-    this.themes.forEach((t) => document.documentElement.classList.remove(t.class));
+    this.themes.forEach((t) => { if (t.class) document.documentElement.classList.remove(t.class); });
     if (theme.class) document.documentElement.classList.add(theme.class);
     this.currentTheme.set(theme);
   }
