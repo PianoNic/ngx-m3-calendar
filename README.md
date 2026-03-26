@@ -1,6 +1,6 @@
 # <p align="center">ngx-m3-calendar</p>
 <p align="center">
-  <img src="./assets/logo.svg" width="120" alt="ngx-m3-calendar logo">
+  <img src="https://raw.githubusercontent.com/PianoNic/ngx-m3-calendar/master/assets/logo.svg" width="120" alt="ngx-m3-calendar logo">
 </p>
 
 <p align="center">
