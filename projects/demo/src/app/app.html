@@ -33,6 +33,7 @@
       [events]="events"
       [viewMode]="'week'"
       [showViewToggle]="true"
+      [darkMode]="isDark()"
       (eventClicked)="onEventClicked($event)"
       (viewModeChanged)="onViewChanged($event)"
       (dateSelected)="onDateSelected($event)"

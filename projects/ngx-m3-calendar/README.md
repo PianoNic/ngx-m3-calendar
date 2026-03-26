@@ -91,6 +91,7 @@ export class MyComponent {
 | `startHour` | `number` | `9` | First hour in day/week grid |
 | `endHour` | `number` | `18` | Last hour in day/week grid |
 | `weekStartsOn` | `number` | `1` (Mon) | 0 = Sunday, 1 = Monday |
+| `darkMode` | `boolean` | `false` | Adjusts custom event colors for dark themes |
 
 ## Outputs
 
