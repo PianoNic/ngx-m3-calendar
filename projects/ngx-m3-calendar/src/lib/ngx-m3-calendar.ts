@@ -31,8 +31,8 @@ import { CalendarUtilsService } from './calendar-utils.service';
 @Component({
   selector: 'mc-calendar',
   imports: [MatButtonModule, MatIconModule, MatButtonToggleModule, MatTooltipModule, DatePipe],
-  templateUrl: './ngx-mat-calendar.html',
-  styleUrl: './ngx-mat-calendar.scss',
+  templateUrl: './ngx-m3-calendar.html',
+  styleUrl: './ngx-m3-calendar.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
   host: { class: 'mc-calendar-shell' },
 })

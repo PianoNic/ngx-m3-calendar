@@ -1,8 +1,8 @@
 /*
- * Public API Surface of ngx-mat-calendar
+ * Public API Surface of ngx-m3-calendar
  */
 
-export { MatCalendarComponent } from './lib/ngx-mat-calendar';
+export { MatCalendarComponent } from './lib/ngx-m3-calendar';
 export type {
   CalendarEvent,
   CalendarViewMode,

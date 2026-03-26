@@ -20,9 +20,9 @@ jobs:
 
       - run: npm ci
 
-      - run: npx ng build ngx-mat-calendar --configuration production
+      - run: npx ng build ngx-m3-calendar --configuration production
 
       - run: npm publish --provenance --access public
-        working-directory: dist/ngx-mat-calendar
+        working-directory: dist/ngx-m3-calendar
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

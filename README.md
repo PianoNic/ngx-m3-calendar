@@ -1,13 +1,16 @@
-# <p align="center">ngx-mat-calendar</p>
+# <p align="center">ngx-m3-calendar</p>
+<p align="center">
+  <img src="./assets/logo.svg" width="120" alt="ngx-m3-calendar logo">
+</p>
 
 <p align="center">
   <strong>A Material 3 calendar component for Angular with day, week, and month views.</strong>
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/ngx-mat-calendar"><img src="https://img.shields.io/npm/v/ngx-mat-calendar?color=5558d9" alt="npm version"/></a>
-  <a href="https://github.com/PianoNic/ngx-mat-calendar/blob/main/LICENSE"><img src="https://img.shields.io/github/license/PianoNic/ngx-mat-calendar?color=5558d9"/></a>
-  <a href="https://www.npmjs.com/package/ngx-mat-calendar"><img src="https://img.shields.io/npm/dm/ngx-mat-calendar?color=5558d9" alt="npm downloads"/></a>
+  <a href="https://www.npmjs.com/package/ngx-m3-calendar"><img src="https://img.shields.io/npm/v/ngx-m3-calendar?color=5558d9" alt="npm version"/></a>
+  <a href="https://github.com/PianoNic/ngx-m3-calendar/blob/main/LICENSE"><img src="https://img.shields.io/github/license/PianoNic/ngx-m3-calendar?color=5558d9"/></a>
+  <a href="https://www.npmjs.com/package/ngx-m3-calendar"><img src="https://img.shields.io/npm/dm/ngx-m3-calendar?color=5558d9" alt="npm downloads"/></a>
 </p>
 
 ## About
@@ -31,7 +34,7 @@ A drop-in calendar component built on Angular Material 3 design tokens. Fully st
 ## Installation
 
 ```bash
-npm install ngx-mat-calendar
+npm install ngx-m3-calendar
 ```
 
 > Requires `@angular/material` >= 19 with a Material 3 theme configured.
@@ -39,7 +42,7 @@ npm install ngx-mat-calendar
 ## Usage
 
 ```typescript
-import { MatCalendarComponent, CalendarEvent } from 'ngx-mat-calendar';
+import { MatCalendarComponent, CalendarEvent } from 'ngx-m3-calendar';
 
 @Component({
   imports: [MatCalendarComponent],

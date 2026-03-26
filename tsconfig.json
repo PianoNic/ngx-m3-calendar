@@ -8,7 +8,7 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "paths": {
-      "ngx-mat-calendar": ["./dist/ngx-mat-calendar"]
+      "ngx-m3-calendar": ["./dist/ngx-m3-calendar"]
     },
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
@@ -27,10 +27,10 @@
   "files": [],
   "references": [
     {
-      "path": "./projects/ngx-mat-calendar/tsconfig.lib.json"
+      "path": "./projects/ngx-m3-calendar/tsconfig.lib.json"
     },
     {
-      "path": "./projects/ngx-mat-calendar/tsconfig.spec.json"
+      "path": "./projects/ngx-m3-calendar/tsconfig.spec.json"
     }
   ]
 }

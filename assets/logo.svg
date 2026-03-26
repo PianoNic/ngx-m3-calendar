@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <rect x="8" y="24" width="112" height="96" rx="16" fill="#FFF4E6" stroke="#C87941" stroke-width="3"/>
+  <rect x="8" y="24" width="112" height="28" rx="16" fill="#C87941"/>
+  <rect x="8" y="40" width="112" height="12" fill="#C87941"/>
+  <circle cx="36" cy="38" r="6" fill="#FFF4E6"/>
+  <circle cx="92" cy="38" r="6" fill="#FFF4E6"/>
+  <rect x="28" y="26" width="4" height="16" rx="2" fill="#FFF4E6"/>
+  <rect x="96" y="26" width="4" height="16" rx="2" fill="#FFF4E6"/>
+  <text x="64" y="92" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="36" fill="#C87941">M3</text>
+  <rect x="22" y="64" width="16" height="4" rx="2" fill="#C87941" opacity="0.3"/>
+  <rect x="56" y="64" width="16" height="4" rx="2" fill="#C87941" opacity="0.3"/>
+  <rect x="90" y="64" width="16" height="4" rx="2" fill="#C87941" opacity="0.3"/>
+</svg>
