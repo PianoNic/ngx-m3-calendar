@@ -13,6 +13,10 @@
   <a href="https://www.npmjs.com/package/ngx-m3-calendar"><img src="https://img.shields.io/npm/dm/ngx-m3-calendar?color=5558d9" alt="npm downloads"/></a>
 </p>
 
+<p align="center">
+  <a href="https://m3-calendar.pianonic.ch">Live Demo</a>
+</p>
+
 ## About
 
 A drop-in calendar component built on Angular Material 3 design tokens. Fully standalone, signal-based, and ready for Angular 19+.
