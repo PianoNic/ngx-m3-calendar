@@ -4,6 +4,14 @@
   "description": "A Material 3 calendar component for Angular with day, week, and month views",
   "keywords": ["angular", "material", "calendar", "material3", "m3", "component"],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PianoNic/ngx-m3-calendar.git"
+  },
+  "homepage": "https://github.com/PianoNic/ngx-m3-calendar",
+  "bugs": {
+    "url": "https://github.com/PianoNic/ngx-m3-calendar/issues"
+  },
   "peerDependencies": {
     "@angular/common": "^19.0.0 || ^20.0.0 || ^21.0.0",
     "@angular/core": "^19.0.0 || ^20.0.0 || ^21.0.0",
